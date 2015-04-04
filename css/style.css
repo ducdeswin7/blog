@@ -25,11 +25,9 @@ html,body,section{
 
 
 .menu {
-  background: #ecf0f1;
+  background: #1abc9c;
   display: none;
   width: 100%;
-  height: 300px;
-
 }
 
 .menu ul {
@@ -38,59 +36,44 @@ html,body,section{
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 100%;
-  height: 100%;
-  background:#ecf0f1;
 }
 
 .menu ul li {
-  display: inline-block;
-  width: 20%;
-  height: 150px;
-  box-sizing: border-box;
-  float: left;
   color: #fff;
   font-size: 12px;
   letter-spacing: 2px;
   padding: 15px 0;
   text-transform: uppercase;
-  transition: All 0.5s ease;
 }
 
-/* .menu ul  { background: #16a085; } */
+/* .menu ul li:hover { background: #16a085; } */
 
 .menu a {
   text-decoration: none;
-  color: #000;
-  text-decoration: none;
-color: #000;
-font-size: 2em;
-line-height: 150px;
+  color: #fff;
 }
-.menu a li span{
-  width: 100%;
-  text-align: center;
-  display: block;
-}
+
 .menu-toggle {
   background: #ecf0f1;
   color: #333;
-  width: 100%;
+  width: 100%;height: 40px;
   text-align: center;
   padding: 10px 0;
   font-size: 25px;
-  text-align: left;
-  padding-left: 10px;
 }
-.imgMenu{
-    float: right;
-    margin-right: 40px;
-}
+
 
 .menu-toggle a {
   text-decoration: none;
   color: #333;
+  float: left;
 }
+a .imgMenu{
+   position: absolute;
+   right: 0;
+}
+
+
 
 .about {
   width: 100%;
@@ -330,6 +313,36 @@ footer a{
 }
 
 @media screen and (max-width: 500px) {
+/*   .menu .firstMenu{
+  display: none;
+}
+.menu li a span{
+width: 100%;
+text-align: center;
+display: none;
+}
+.menuMobile {
+  display: block;
+}
+.menu {
+background: #1abc9c;
+display: none;
+width: 100%;
+}
+.menu li a img{
+display: none;
+}
+.menu li a span{
+width: 100%;
+text-align: center;
+display: block;
+}
+.menu ul {
+width: 100%;
+}
+.menu li span{
+ 
+} */
     article{
         width: 100%;
         height: 100%;
