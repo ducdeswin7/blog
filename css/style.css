@@ -148,6 +148,7 @@ line-height: 150px;
     float: left;
     padding: 0.625em 0.625em 1.875em 0.625em;
     box-sizing: border-box;
+    margin: 10px;
 }
 .img{
     width: 100%;
@@ -215,3 +216,6 @@ footer a{
     text-decoration: none;
     color: #2b3d4f;
 }
+
+
+
