@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,400italic,700italic,700,500italic,400);
+@import url(http://fonts.googleapis.com/css?family=roboto);
+
+.a{
+    background:#2b3d4f;
+    padding: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+.a:hover{
+    background:#fff;
+    color: #000;
+    transition: .6s;
+}
+body {
+	line-height: 1;
+    background: #2b3d4f;
+    font-family: 'Roboto', sans-serif;
+}
+html,body,section{ 
+    width: 100%;
+    height: 100%;    
+}
+/* MENU */
+
+
+.menu {
+  background: #ecf0f1;
+  display: none;
+  width: 100%;
+
+}
+
+.menu ul {
+  font-family: 'roboto', serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #;
+}
+
+.menu ul li {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  transition: All 0.5s ease;
+}
+
+/* .menu ul  { background: #16a085; } */
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  text-decoration: none;
+color: #000;
+font-size: 2em;
+line-height: 150px;
+}
+.menu a li span{
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.menu-toggle {
+  background: #ecf0f1;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+}
+.imgMenu{
+    float: right;
+    margin-right: 40px;
+}
+
+.menu-toggle a {
+  text-decoration: none;
+  color: #333;
+}
+
+.about {
+  width: 100%;
+  font-family: 'roboto', serif;
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+  color: #333;
+}
+.angular:hover{
+  background: #E62A39;
+  transition: All 0.5s ease;
+}
+.css:hover{
+   background: #0070bd;transition: All 0.5s ease;
+}
+.developpement:hover{
+   background: #16a085;transition: All 0.5s ease;
+}
+.git:hover{
+   background: #95a5a6;transition: All 0.5s ease;
+}
+.javascript:hover{
+   background: #f0db4f;transition: All 0.5s ease;
+}
+.jquery:hover{
+   background: #0868ab;transition: All 0.5s ease;
+}
+.node:hover{
+   background: #8cc84b;transition: All 0.5s ease;
+}
+.php:hover{
+   background: #6c7eb7;transition: All 0.5s ease;
+}
+.ruby:hover{
+   background: #ed1723;transition: All 0.5s ease;
+}
+.ubuntu:hover{
+  background: #34495e;transition: All 0.5s ease;
+}
+
+
+
+/* corps */
+.left{
+    width: 80%;
+     height: auto;
+    min-height: 100%;
+    float: left;
+}
+.right{
+    background: #ecf0f1;
+    width: 20%;
+    height: auto;
+    min-height: 100%;
+    float: left;
+    padding: 0.625em 0.625em 1.875em 0.625em;
+    box-sizing: border-box;
+}
+.img{
+    width: 100%;
+    -moz-box-shadow: 0px 3px 7px 0px #343434;
+    -webkit-box-shadow: 0px 3px 7px 0px #343434;
+    -o-box-shadow: 0px 3px 7px 0px #343434;
+    box-shadow: 0px 3px 7px 0px #343434;        
+}
+.box{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+h2{
+    font-size: 1em;
+    font-weight: bold;
+}
+p{
+    font-size:0.875em;
+}
+.contentBox{
+    padding: 10px 10px 30px 10px;
+    margin-top: -3px;
+    background: #fff;
+}    
+.contentBox span.date{
+    float: right;
+    font-size: 0.750em;
+}
+.contentBox span.auteur,.contentBox span.date, .lastArticle .date, .lastArticle .auteur{
+    font-size: 0.750em;
+    font-style: italic;
+}
+.contentBox a{
+   float: right;
+}
+.contentBox span.categorie, .contentBox a{
+   font-size: 0.750em;
+}
+.right h2{
+    padding-top: 20px;
+}
+.right .lastArticle h2{
+    border-top: 1px solid #000;
+}
+.right p{
+    font-style: italic;
+}
+article{
+    width: 33.333333%;
+    height: 100%;
+    float: left;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ecf0f1;
+}
+footer a{
+    text-decoration: none;
+    color: #2b3d4f;
+}
